@@ -1,13 +1,22 @@
 # 🆕 What's new
 
+### 📱 Monitors & Widgets 2.0 beta update · 25 November 2026
+> [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · Installing it over the first beta keeps your settings.
+
+- **🌡️ HWiNFO or MSI Afterburner:** pick where the readings come from in **Menu → System → Readings → Read from**. With HWiNFO, the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. HWiNFO support is new: tell me how it works on your PC.
+- **🖥️ Any number of screens:** **Size and place → Screen** is now **−** / **+** and counts your switched-on screens left to right ("1 of 2"), so a second screen on another graphics output is found too.
+- **🔍 Sharp at every Windows scale** (125, 150, 175 %): no lines of wallpaper between the cards; the glass, borders and Theme art are crisp; the Photo card's pictures and GIFs fill their space. Rainmeter's own zoom no longer pulls the cards apart.
+- **⚡ A faster Menu:** the Console Menu no longer makes 314 hidden windows each time it opens (15 now), and a look change works out the Menu's colours without loading anything extra.
+- **🔧 Fixes:** the Mixer panel opens lighter, a Dock or Band no longer moves a pixel when it loads again, and the plugins are steadier.
+
 
 ### 📱 Monitors & Widgets 2.0 beta · November 2026
-> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [📖 Install and what's in it](docs/monitors-and-widgets.md). It installs beside 1.7.1.
+> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [📖 Install and what's in it](docs/monitors-and-widgets.md). It installs beside 1.7.1.
 
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait, and every 1.7.1 screen redone (Beta).
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.
 - **🖼️ Hand-made Themes** with their own art, fonts and ornaments (Beta).
-- **🎛️ A new Menu in two styles**, Console and Classic. Everything is set by clicking, no files to edit.
+- **🎛️ A new Menu in two styles**, Console and Classic, plus four more in Beta: Tile wall, Showroom, Ambient and the Wheel. Everything is set by clicking, no files to edit.
 - **📐 One Scale slider**, 1 to 300 %, for every dashboard.
 - **🎬 Photos, GIFs and videos** right on the dashboard.
 - **✨ Motion** made in Blender.
@@ -38,7 +47,7 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 - **🔧 Fixed:** the desktop widgets could show the wrong total video memory (often 8 GB), and the Menu didn't change their RAM and VRAM bars.
 - **✨ Tidier layouts:** case screens use their space better, bar screens show the FPS stats on one line, the repeated **Core clock** is gone from the second-monitor layouts, and **Horizontal 2** now shows RAM.
 - **🖐️ Every skin can be dragged**, and installing over 1.7 keeps your settings.
-- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12).
+- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/discussions/12).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>

@@ -23,14 +23,23 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 
 ## 📣 Announcement
 
+- **🆕 Monitors & Widgets 2.0 beta is out:** new dashboards, 62 looks, Themes and a new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version. **Updated 25 November:** HWiNFO as a choice next to MSI Afterburner, any number of screens, sharp at every Windows scale, and a faster Menu. See [What's new](#whats-new).
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
-- **🆕 Monitors & Widgets 2.0 beta is out:** new dashboards, 62 looks, Themes and a new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version.
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/issues) with a screenshot and your resolution.
 - See the [roadmap](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/discussions/12) for what I'm working on.
 
 <a id="whats-new"></a>
 ## 🆕 What's new
+
+### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta update · 25 November 2026
+> [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). Installing it over the first beta keeps your settings.
+
+- **🌡️ HWiNFO or MSI Afterburner:** pick where the readings come from in **Menu → System → Readings → Read from**. With HWiNFO, the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. HWiNFO support is new: tell me how it works on your PC.
+- **🖥️ Any number of screens:** **Size and place → Screen** is now **−** / **+** and counts your switched-on screens left to right ("1 of 2"), so a second screen on another graphics output is found too.
+- **🔍 Sharp at every Windows scale** (125, 150, 175 %): no lines of wallpaper between the cards; the glass, borders and Theme art are crisp; the Photo card's pictures and GIFs fill their space. Rainmeter's own zoom no longer pulls the cards apart.
+- **⚡ A faster Menu:** the Console Menu no longer makes 314 hidden windows each time it opens (15 now), and a look change works out the Menu's colours without loading anything extra.
+- **🔧 Fixes:** the Mixer panel opens lighter, a Dock or Band no longer moves a pixel when it loads again, and the plugins are steadier.
 
 ### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta · November 2026
 > **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
@@ -38,7 +47,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone.
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.
 - **🖼️ Hand-made Themes** with their own art, fonts and ornaments.
-- **🧭 A new Menu in two styles**, Console and Classic. Everything is set by clicking, no files to edit.
+- **🧭 A new Menu in two styles**, Console and Classic, plus four more in Beta: Tile wall, Showroom, Ambient and the Wheel. Everything is set by clicking, no files to edit.
 - **📐 One Scale slider**, 1 to 300 %, for every dashboard.
 - **✨ Motion** made in Blender.
 - **🎬 Photos, GIFs and videos** right on the dashboard.
@@ -88,8 +97,6 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 </details>
 
 Thanks to everyone on Reddit who asked for these!
-
----
 
 ---
 
@@ -454,7 +461,7 @@ Tip: watch the **Value** column in Data sources. Once it's right, GPU usage jump
 <summary><h3>📍 Move it anywhere you like</h3></summary>
 
 1. Open the overlay in the **Overlay editor**.
-2. ### Turn off "Snap to grid" first! ⚠️
+2. **⚠️ Turn off "Snap to grid" first!**
    Click **View** at the top, then click **Snap to grid** so the ✓ disappears. With snapping on, each piece snaps separately and the numbers slide out of place.
 
    <img src="previews/setup/snap_to_grid.png" width="440" alt="Overlay editor: View menu, Snap to grid">
@@ -623,8 +630,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 - **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
 - **The 12V warning:** the **12V** label turns **amber** if the cable voltage drops below 11.85 V and **red** below 11.75 V, but only while you're gaming (GPU using more than 150 W). The cable is only under real stress under heavy load. At idle almost no power flows through it, so a low number there doesn't mean anything and the label stays green. The number itself always shows the real voltage.
 - **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
-<a id="meter-scales"></a>
-- **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
+- <a id="meter-scales"></a>**Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
 
   | Meter | Full at | Why |
   |---|---|---|
@@ -647,7 +653,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 | The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
 | Performance, Sleek Side or TV Side is in the wrong place or missing | These sit on the right edge and are placed for your exact screen size, so a game running at another resolution or in a window can push them off screen. In the main RTSS window, click the **top-right corner** of the On-Screen Display preview box. RTSS then keeps them on the right edge at any resolution. Click the **top-left** corner again before using the other overlays. |
 | I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
-| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
+| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#afterburner-setup)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
 | GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
 | 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
 | Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
@@ -657,15 +663,13 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 
 ---
 
----
-
 <a id="monitors-and-widgets"></a>
 # <img src="previews/brand/monitors-icon.png" width="54" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets
 
 <p align="center"><a href="#mw2"><b>🆕 2.0 beta</b></a> · <a href="#mw2-install"><b>Set up 2.0 beta</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
 
 <a id="mw2"></a>
-## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner)
+## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner or HWiNFO)
 
 **A dashboard for your desktop: a clock, your photo, GIF or video, what is playing, your apps, CPU, GPU, memory, FPS, network and drives.**
 
@@ -685,7 +689,7 @@ Pick yours in **Menu → Size and place → Dashboard**. Every one comes as **Ca
 | 🖥️ **32:9 super ultrawide** | A full dashboard, a Photo Hero, a Dock and a Band |
 | 🖥️ **21:9 ultrawide** | A full dashboard, a Photo Hero, a Dock and a Band |
 | 🖥️ **16:9** | 16:9, Widescreen, Alternate, a Photo Hero, a Dock and a Band |
-| **A 16:9 screen stood on its side** | 16:9 Portrait and 16:9 Portrait Widescreen |
+| **A 16:9 screen stood on its side** | 16:9 Portrait and 16:9 Portrait Widescreen. Five more are shown as "Not ready · concept" |
 | **Bar screens** | Corsair Xeneon Edge 2560x720 · Lian Li 8.8in 1920x480 · Lian Li 9.2in O11 Vision-M 1920x462 · Lian Li Lancool 207 1600x720 |
 | **Case screens** | Corsair Xeneon Edge 720x2560 · HYTE Y70 Touch 1100x3840 · HYTE Y70 Touch Infinite 688x2560 and 682x2560 · Lian Li 8.8in 480x1920 · Lian Li Lancool 207 720x1600 |
 | **Compact** | 16:9 Compact · 16:9 Portrait Compact |
@@ -720,7 +724,7 @@ The last four rows are 1.7.1's screens, redone. Each comes twice: as 2.0 draws i
 <a id="mw2-menu"></a>
 ### Make it yours (the Menu)
 
-Right-click the dashboard → **Menu...** Everything is set by clicking. No files to edit. A new install opens in the **Console** style. **Classic** has the same settings as tabs, tiles and rows.
+Right-click the dashboard → **Menu...** Everything is set by clicking. No files to edit. A new install opens in the **Console** style. **Classic** has the same settings as tabs, tiles and rows. Four more styles are in Beta: **Tile wall**, **Showroom**, **Ambient** and the **Wheel** (Menu style, under "Beta").
 
 <table>
 <tr>
@@ -734,14 +738,16 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 | **Style** | Looks, Themes, My colours, Fonts, Banners, Fine-tune |
 | **Size and place** | The dashboard (all 55), the screen, Cards or Box, corners, Fill the screen or Free size, Scale (1 to 300 %), place |
 | **Cards** | What each card shows |
-| **System** | Sensors, the FPS graph's top, your files, the Menu's own look and style, reset |
+| **System** | Sensors (read from MSI Afterburner or HWiNFO), the FPS graph's top, your files, the Menu's own look and style, reset |
 
 <a id="mw2-install"></a>
 ### ⬇️ Set it up (about 5 minutes)
 
 **You need:** Windows 10 or 11 (64-bit), [Rainmeter](https://www.rainmeter.net) 5.0 or newer, and [MSI Afterburner](https://www.msi.com/Landing/afterburner) running for the processor and graphics card readings. For the frame rate, keep RTSS running too (it comes with Afterburner).
 
-1. Install Rainmeter, and MSI Afterburner with RTSS.
+**Or HWiNFO instead of Afterburner** (new): [HWiNFO64](https://www.hwinfo.com/) running, with **Shared Memory Support** on in its Settings (the same steps as for the Volt overlays: [picture guide](#hwinfo-setup-shared-memory)). Then pick it in **Menu → System → Readings → Read from**. With HWiNFO the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. The free HWiNFO turns Shared Memory off after 12 hours: tick it again then.
+
+1. Install Rainmeter, and MSI Afterburner with RTSS (or HWiNFO).
 2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
 3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
 4. To change anything later: right-click the dashboard → **Menu...**
@@ -750,7 +756,8 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 
 - **It installs beside 1.7.1.** It has its own folder and touches none of 1.7.1's files, so you can keep both.
 - **Your choices are kept** in `Skins\MonitorsAndWidgets2\@Resources\UserSettings.inc`. An update keeps them.
-- **Without MSI Afterburner** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes.
+- **Without MSI Afterburner (or HWiNFO)** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes. Only the app you pick is read: with HWiNFO picked, nothing comes from Afterburner, even when it runs.
+- **What is Beta:** the 1.7.1 screens redone, Themes, My colours and the Menu styles Tile wall, Showroom, Ambient and the Wheel work and may still change. Card shadows are off for now.
 - **Browser videos in the Photo card (optional):** add the small [browser extension](#mw2-extension), a picture guide is just below.
 
 <a id="mw2-extension"></a>
@@ -786,7 +793,7 @@ With the extension, a video you play in your browser goes into the Photo card. I
 
 ### Troubleshooting (Monitors & Widgets 2.0 beta)
 
-- **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running.
+- **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running. With HWiNFO picked: HWiNFO isn't running, or its Shared Memory Support is off (the free version turns it off after 12 hours). Rainmeter's log (About → Log) says why.
 - **It opened on the wrong screen, or the wrong shape:** Menu → Size and place → Screen, and Dashboard.
 - **Too big or too small:** Menu → Size and place → Scale.
 - **Coming from 1.7.1:** both can stay installed. To use only 2.0, unload 1.7.1's skins in Rainmeter's Manage window.
@@ -983,8 +990,6 @@ It is now called **Monitors & Widgets**. In **Manage**, unload the **AppleStyleM
 | The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
 | Old folders (Case Screen Classic, Sidebar 2…) still show in Manage | Close Rainmeter, delete `Documents\Rainmeter\Skins\MonitorsAndWidgets`, and install 1.7.1 again. |
 | I can't show Sidebar and Sidebar 2 together | Rainmeter shows one file per folder at a time. Pick the one you like best. |
-
----
 
 ---
 

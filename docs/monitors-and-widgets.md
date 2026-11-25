@@ -2,18 +2,20 @@
 
 A dashboard for your desktop, made for Rainmeter: a clock, your photo, GIF or video, what is playing, the volume, your apps, the processor, the graphics card, memory, the frame rate of the game you play, the network and your drives.
 
-<p align="center"><a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin"><b>⬇️ Download Monitors and Widgets 2.0 beta</b></a> · <a href="#install"><b>🧭 Install</b></a> · <a href="#screens"><b>🖥️ Screens</b></a> · <a href="#menu"><b>🎛️ The Menu</b></a> · <a href="#help"><b>🛠️ Help</b></a></p>
+<p align="center"><a href="https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin"><b>⬇️ Download Monitors and Widgets 2.0 beta</b></a> · <a href="#install"><b>🧭 Install</b></a> · <a href="#screens"><b>🖥️ Screens</b></a> · <a href="#menu"><b>🎛️ The Menu</b></a> · <a href="#help"><b>🛠️ Help</b></a></p>
 
 ![Monitors & Widgets 2.0 beta on a 32:9 screen](../previews/mw2/dashboard-32x9.png)
 
-> **It is a beta.** The dashboards, the looks and the Console and Classic Menus are finished. The parts marked **Beta** below work and can be picked, and may still change. Found something? Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+> **It is a beta.** The dashboards, the looks and the Console and Classic Menus are finished. The parts marked **Beta** below work and can be picked, and may still change. Found something? Open an [issue](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/issues) with a screenshot and your resolution.
 
 ## What's new in 2.0
+
+**Updated 25 November:** HWiNFO as a choice next to MSI Afterburner (**Menu → System → Readings → Read from**), any number of screens (**Size and place → Screen** counts them left to right), sharp at every Windows scale, and a faster Menu.
 
 - **🖥️ 55 dashboards and widgets.** 21 new ones for 32:9, 21:9, 16:9 and portrait screens, as a full dashboard or a slim Dock or Band. Every 1.7.1 screen is here too, redone (Beta).
 - **🎨 62 looks in one click**, 51 accent colours, and your own colours.
 - **🖼️ Hand-made Themes** (Beta): seven, each with its own art, fonts and ornaments.
-- **🎛️ A new Menu** in two styles, Console and Classic. Everything is set by clicking. No files to edit.
+- **🎛️ A new Menu** in two styles, Console and Classic, plus four more in Beta: Tile wall, Showroom, Ambient and the Wheel. Everything is set by clicking. No files to edit.
 - **📐 One Scale slider** for every dashboard, from 1 to 300 %. Past what fits, the dashboard stops at the screen's edge.
 - **🎬 Photos, GIFs and videos** on the dashboard, and browser videos with the small extension.
 - **✨ Motion** in the Menu, made in Blender.
@@ -24,8 +26,10 @@ A dashboard for your desktop, made for Rainmeter: a clock, your photo, GIF or vi
 
 **You need:** Windows 10 or 11 (64-bit), [Rainmeter](https://www.rainmeter.net) 5.0 or newer, and [MSI Afterburner](https://www.msi.com/Landing/afterburner) running for the processor and graphics card readings. For the frame rate, keep RTSS running too (it comes with Afterburner).
 
-1. Install Rainmeter, and MSI Afterburner with RTSS.
-2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
+**Or HWiNFO instead of Afterburner** (new): [HWiNFO64](https://www.hwinfo.com/) running, with **Shared Memory Support** on in its Settings ([picture guide](../README.md#hwinfo-setup-shared-memory)). Then pick it in **Menu → System → Readings → Read from**. With HWiNFO the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. The free HWiNFO turns Shared Memory off after 12 hours: tick it again then.
+
+1. Install Rainmeter, and MSI Afterburner with RTSS (or HWiNFO).
+2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
 3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
 4. To change anything later: right-click the dashboard → **Menu...**
 
@@ -33,9 +37,9 @@ A dashboard for your desktop, made for Rainmeter: a clock, your photo, GIF or vi
 
 Your choices are kept in `Skins\MonitorsAndWidgets2\@Resources\UserSettings.inc`. An update keeps them.
 
-**Without MSI Afterburner** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes.
+**Without MSI Afterburner (or HWiNFO)** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes. Only the app you pick is read: with HWiNFO picked, nothing comes from Afterburner, even when it runs.
 
-**Browser videos in the Photo card (optional):** download the [browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip) and follow "How to add it.txt" inside.
+**Browser videos in the Photo card (optional):** download the [browser extension](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip) and follow "How to add it.txt" inside.
 
 <a id="screens"></a>
 ## Screens
@@ -113,7 +117,7 @@ Right-click the dashboard → **Menu...** A new install opens in the **Console**
 | **Style** | Looks, Themes (Beta), My colours (Beta), Fonts, Banners, Fine-tune |
 | **Size and place** | The dashboard (all 55), the screen, Cards or Box, corners, Fill the screen or Free size, Scale, place |
 | **Cards** | What each card shows |
-| **System** | Sensors, the FPS graph's top, your files, the Menu's own look and style, reset |
+| **System** | Sensors (read from MSI Afterburner or HWiNFO), the FPS graph's top, your files, the Menu's own look and style, reset |
 
 <table>
 <tr>
@@ -149,10 +153,10 @@ Right-click the dashboard → **Menu...** A new install opens in the **Console**
 <a id="help"></a>
 ## Help
 
-- **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running.
+- **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running. With HWiNFO picked: HWiNFO isn't running, or its Shared Memory Support is off (the free version turns it off after 12 hours). Rainmeter's log (About → Log) says why.
 - **It opened on the wrong screen, or the wrong shape:** Menu → Size and place → Screen, and Dashboard.
 - **Too big or too small:** Menu → Size and place → Scale.
 - **Coming from 1.7.1:** both can stay installed. To use only 2.0, unload 1.7.1's skins in Rainmeter's Manage window.
-- **Anything else:** open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+- **Anything else:** open an [issue](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/issues) with a screenshot and your resolution.
 
 [← Back to the front page](../README.md) · [Monitors & Widgets 1.7.1](monitors-and-widgets-1.7.1.md)
