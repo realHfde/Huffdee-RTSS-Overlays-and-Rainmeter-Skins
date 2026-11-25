@@ -39,10 +39,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 - **🖥️ Any number of screens:** **Size and place → Screen** is now **−** / **+** and counts your switched-on screens left to right ("1 of 2"), so a second screen on another graphics output is found too.
 - **🔍 Sharp at every Windows scale** (125, 150, 175 %): no lines of wallpaper between the cards; the glass, borders and Theme art are crisp; the Photo card's pictures and GIFs fill their space. Rainmeter's own zoom no longer pulls the cards apart.
 - **⚡ A faster Menu:** the Console Menu no longer makes 314 hidden windows each time it opens (15 now), and a look change works out the Menu's colours without loading anything extra.
-- **🔧 Fixes:** the Mixer panel opens lighter, a Dock or Band no longer moves a pixel when it loads again, and the plugins are steadier.
-
-### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta · November 2026
-> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
+- **🔧 Fixes:** the Mixer panel opens lighter, a Dock or Band no longer moves a pixel when it loads again, and the plugins are steadier
 
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone.
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.
