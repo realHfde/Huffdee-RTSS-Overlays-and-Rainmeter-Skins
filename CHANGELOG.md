@@ -1,7 +1,7 @@
 # 🆕 What's new
 
-### 📱 Monitors & Widgets 2.0.1 · build 372 · 25 November 2026
-> [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/releases/download/monitor-2.0.1/Monitors.and.Widgets.2.0.1.rmskin) · The first update to 2.0 beta: installing it over 2.0 beta keeps your settings.
+### 📱 Monitors & Widgets beta 2.0.372.7 · 25 November 2026
+> [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/releases/download/monitor-2.0-beta/Monitors.and.Widgets.beta.2.0.372.7.rmskin) · Installing it over the first beta keeps your settings.
 
 - **🌡️ HWiNFO or MSI Afterburner:** pick where the readings come from in **Menu → System → Readings → Read from**. With HWiNFO, the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. HWiNFO support is new: tell me how it works on your PC.
 - **🖥️ Any number of screens:** **Size and place → Screen** is now **−** / **+** and counts your switched-on screens left to right ("1 of 2"), so a second screen on another graphics output is found too.
