@@ -3,7 +3,7 @@
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-> 🆕 **[Monitors & Widgets 2.0 beta](monitors-and-widgets.md)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/discussions/12)
+> 🆕 **[Monitors & Widgets 2.0.1](monitors-and-widgets.md)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 

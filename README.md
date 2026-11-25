@@ -23,7 +23,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 
 ## 📣 Announcement
 
-- **🆕 Monitors & Widgets 2.0 beta is out:** new dashboards, 62 looks, Themes and a new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version. **Updated 25 November:** HWiNFO as a choice next to MSI Afterburner, any number of screens, sharp at every Windows scale, and a faster Menu. See [What's new](#whats-new).
+- **🆕 Monitors & Widgets 2.0.1 is out** (build 372, 25 November): HWiNFO as a choice next to MSI Afterburner, any number of screens, sharp at every Windows scale, and a faster Menu, on top of 2.0 beta's new dashboards, 62 looks, Themes and new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version. See [What's new](#whats-new).
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/issues) with a screenshot and your resolution.
@@ -32,8 +32,8 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta update · 25 November 2026
-> [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). Installing it over the first beta keeps your settings.
+### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0.1 · build 372 · 25 November 2026
+> [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/releases/download/monitor-2.0.1/Monitors.and.Widgets.2.0.1.rmskin) · [See it and set it up](#mw2). The first update to 2.0 beta: installing it over 2.0 beta keeps your settings.
 
 - **🌡️ HWiNFO or MSI Afterburner:** pick where the readings come from in **Menu → System → Readings → Read from**. With HWiNFO, the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. HWiNFO support is new: tell me how it works on your PC.
 - **🖥️ Any number of screens:** **Size and place → Screen** is now **−** / **+** and counts your switched-on screens left to right ("1 of 2"), so a second screen on another graphics output is found too.
@@ -666,18 +666,18 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 <a id="monitors-and-widgets"></a>
 # <img src="previews/brand/monitors-icon.png" width="54" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets
 
-<p align="center"><a href="#mw2"><b>🆕 2.0 beta</b></a> · <a href="#mw2-install"><b>Set up 2.0 beta</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
+<p align="center"><a href="#mw2"><b>🆕 2.0.1</b></a> · <a href="#mw2-install"><b>Set up 2.0.1</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
 
 <a id="mw2"></a>
-## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner or HWiNFO)
+## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0.1 (Rainmeter + MSI Afterburner or HWiNFO)
 
 **A dashboard for your desktop: a clock, your photo, GIF or video, what is playing, your apps, CPU, GPU, memory, FPS, network and drives.**
 
 <p align="center"><a href="#mw2-install"><b>⬇️ Download and set up</b></a> · about 5 minutes</p>
 
-![Monitors & Widgets 2.0 beta on a 32:9 screen](previews/mw2/dashboard-32x9.png)
+![Monitors & Widgets 2.0.1 on a 32:9 screen](previews/mw2/dashboard-32x9.png)
 
-> **It is a beta**, so things may still change. Found something? Open an [issue](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/issues) with a screenshot and your resolution.
+> **2.0.1 is the first update to 2.0 beta.** The parts marked **Beta** (in the Menu and below) may still change. Found something? Open an [issue](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/issues) with a screenshot and your resolution.
 
 <a id="mw2-screens"></a>
 ### Pick your screen
@@ -748,7 +748,7 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 **Or HWiNFO instead of Afterburner** (new): [HWiNFO64](https://www.hwinfo.com/) running, with **Shared Memory Support** on in its Settings (the same steps as for the Volt overlays: [picture guide](#hwinfo-setup-shared-memory)). Then pick it in **Menu → System → Readings → Read from**. With HWiNFO the frame rate comes from HWiNFO itself (its PresentMon), so RTSS isn't needed. The free HWiNFO turns Shared Memory off after 12 hours: tick it again then.
 
 1. Install Rainmeter, and MSI Afterburner with RTSS (or HWiNFO).
-2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
+2. Download **[Monitors.and.Widgets.2.0.1.rmskin](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/releases/download/monitor-2.0.1/Monitors.and.Widgets.2.0.1.rmskin)**, double-click it and click **Install**.
 3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
 4. To change anything later: right-click the dashboard → **Menu...**
 
@@ -763,7 +763,7 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 <a id="mw2-extension"></a>
 ### 🌐 Browser videos in the Photo card (optional, picture guide)
 
-With the extension, a video you play in your browser goes into the Photo card. It works in **Brave, Chrome, Vivaldi, Opera GX** and other Chromium browsers. Monitors & Widgets 2.0 beta must be installed first: the extension talks to it.
+With the extension, a video you play in your browser goes into the Photo card. It works in **Brave, Chrome, Vivaldi, Opera GX** and other Chromium browsers. Monitors & Widgets 2.0.1 must be installed first: the extension talks to it.
 
 **First:** download the **[browser extension](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip)** and unzip it somewhere it can stay. The browser reads the folder from there, so don't delete it afterwards.
 
@@ -791,7 +791,7 @@ With the extension, a video you play in your browser goes into the Photo card. I
 
 > The button says "The card's Browser button is off"? That is the last step: turn **Browser** on under the Photo card's clock.
 
-### Troubleshooting (Monitors & Widgets 2.0 beta)
+### Troubleshooting (Monitors & Widgets 2.0.1)
 
 - **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running. With HWiNFO picked: HWiNFO isn't running, or its Shared Memory Support is off (the free version turns it off after 12 hours). Rainmeter's log (About → Log) says why.
 - **It opened on the wrong screen, or the wrong shape:** Menu → Size and place → Screen, and Dashboard.
@@ -804,7 +804,7 @@ With the extension, a video you play in your browser goes into the Photo card. I
 
 **Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.**
 
-> 🆕 **[Monitors & Widgets 2.0 beta](#mw2)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/discussions/12)
+> 🆕 **[Monitors & Widgets 2.0.1](#mw2)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
