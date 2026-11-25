@@ -42,7 +42,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 - **🔧 Fixes:** the Mixer panel opens lighter, a Dock or Band no longer moves a pixel when it loads again, and the plugins are steadier.
 
 ### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta · November 2026
-> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
+> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/releases/download/monitor-2.0-beta/Monitors.and.Widgets.beta.2.0.372.7.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
 
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone.
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.

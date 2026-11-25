@@ -11,7 +11,7 @@
 
 
 ### 📱 Monitors & Widgets 2.0 beta · November 2026
-> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [📖 Install and what's in it](docs/monitors-and-widgets.md). It installs beside 1.7.1.
+> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Huffdee-RTSS-Overlays-and-Rainmeter-Skins/releases/download/monitor-2.0-beta/Monitors.and.Widgets.beta.2.0.372.7.rmskin) · [📖 Install and what's in it](docs/monitors-and-widgets.md). It installs beside 1.7.1.
 
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait, and every 1.7.1 screen redone (Beta).
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.
